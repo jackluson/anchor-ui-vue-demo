@@ -1,0 +1,8 @@
+module.exports = {
+  chainWebpack: (config) => {
+    config.externals({
+      'vue': 'Vue',
+      'ELEMENT': 'ELEMENT'
+    })
+  }
+}
