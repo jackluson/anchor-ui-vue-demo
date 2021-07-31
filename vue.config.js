@@ -3,6 +3,7 @@ module.exports = {
     config.externals({
       vue: "Vue",
       "element-ui": "ELEMENT",
+      "anchor-ui-vue": "AnchorUI",
     });
   },
 };
