@@ -1,8 +1,8 @@
 module.exports = {
-  // chainWebpack: (config) => {
-  //   config.externals({
-  //     vue: "Vue",
-  //     "element-ui": "ELEMENT",
-  //   });
-  // },
+  chainWebpack: (config) => {
+    config.externals({
+      vue: "Vue",
+      "element-ui": "ELEMENT",
+    });
+  },
 };
