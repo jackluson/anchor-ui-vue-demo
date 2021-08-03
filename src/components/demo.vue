@@ -1,13 +1,8 @@
 <template>
   <div>
-    <anchor-table :column="tableData.column" :data="tableData.data">
-    </anchor-table>
+    <an-table :column="tableData.column" :data="tableData.data"> </an-table>
 
-    <anchor-dialog
-      :visible.sync="dialogVisible"
-      title="编辑"
-      @confirm="confirm"
-    >
+    <an-dialog :visible.sync="dialogVisible" title="编辑" @confirm="confirm">
       <div class="dialog-content">
         <el-form v-if="currentEdit" label-width="100px">
           <el-form-item label="日期">
@@ -39,7 +34,7 @@
         <el-button @click="dialogVisible = false">取 消</el-button>
         <el-button type="primary" @click="confirm">确 定</el-button>
       </div> -->
-    </anchor-dialog>
+    </an-dialog>
   </div>
 </template>
 
