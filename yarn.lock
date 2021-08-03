@@ -1656,10 +1656,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.nlark.com/alphanum-sort/download/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-anchor-ui-vue@^0.9.5:
-  version "0.9.5"
-  resolved "https://registry.npmjs.org/anchor-ui-vue/-/anchor-ui-vue-0.9.5.tgz#187500c57494cb5aa8abdad04b6dc61f9d1f71dd"
-  integrity sha512-hzFvr+CtLCG9cDVoeqs1Z3uiedIjpTgJ681Q1UeSSLhoukuRGdziuKUo3wj2fZyVqOzdvCthCbA8ObjGkbF0Lw==
+anchor-ui-vue@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/anchor-ui-vue/-/anchor-ui-vue-1.0.0.tgz#71a247688ef6e432ac2884f41a5302a62dbbbbde"
+  integrity sha512-Kx+cJJ2dLfO20/XfPu7+wFxR+2WgSn3853JHze3fl8aFg4K9PAacaEDMkJHIe8E6fYdh8CuKzPWzzXIgjIaDgg==
   dependencies:
     "@rollup/plugin-babel" "^5.3.0"
     "@rollup/plugin-node-resolve" "^13.0.4"
